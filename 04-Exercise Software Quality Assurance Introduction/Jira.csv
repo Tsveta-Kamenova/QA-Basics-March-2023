@@ -1,0 +1,122 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Labels,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+"Incorrect [Space] before "":""",RFB-17,10018,Task,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Lowest,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:55 AM,20/Mar/23 11:55 AM,20/Mar/23 11:59 AM,,,0,punctuation,,,"There’s *no* need for [*Space*] before the “*:*”.
+
+!image-20230320-095436.png|width=326,height=182!",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:55 AM;63f38e9f89de3d475af3dff2;image-20230320-095436.png;https://flowersoft.atlassian.net/secure/attachment/10020/image-20230320-095436.png,,,,,,,,,,,,,,,,,,0|i0003z:,,,,,,,,,,,To Do
+Wrong username message doesn't say about symbols,RFB-16,10017,Improvement,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:53 AM,20/Mar/23 11:53 AM,20/Mar/23 11:59 AM,,,0,enter,UI,,"When typing *wrong* username*, popup* message doesn’t indicate that there are symbols in the filled-in username.
+
+!image-20230320-095314.png|width=316,height=171!
+
+*Proposal:* Popup message states that there are special characters used, e.g. *“Username must consist of no less than 6 letters AND numbers”* OR *“Username consists of letters and digits only”.*",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:53 AM;63f38e9f89de3d475af3dff2;image-20230320-095314.png;https://flowersoft.atlassian.net/secure/attachment/10019/image-20230320-095314.png,,,,,,,,,,,,,,,,,,0|i0003r:,,,,,,,,,,,To Do
+[Enter] does not go to [Create Account] button,RFB-15,10016,Improvement,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:50 AM,20/Mar/23 11:50 AM,20/Mar/23 11:59 AM,,,0,enter,UI,,"After filling in correct input, I should wish after pressing [*Enter*], to be the same as pressing the [*Create Account*] button.",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0003j:,,,,,,,,,,,To Do
+"""Redirecting"" message popup is not user friendly",RFB-14,10015,Improvement,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:49 AM,20/Mar/23 11:55 AM,20/Mar/23 11:55 AM,,,0,message,popup,UI,"When I use *valid* username, e-mail and password, after clicking the [*Create Account*] button, there’s a *popup* window (alert), which says “*Redirecting*”. It is *not* user friendly.
+
+!image-20230320-094752.png|width=331,height=227!
+
+*Proposal*: Something similar may be used:
+
+!image-20230320-094800.png|width=393,height=171!",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:49 AM;63f38e9f89de3d475af3dff2;image-20230320-094752.png;https://flowersoft.atlassian.net/secure/attachment/10017/image-20230320-094752.png,20/Mar/23 11:49 AM;63f38e9f89de3d475af3dff2;image-20230320-094800.png;https://flowersoft.atlassian.net/secure/attachment/10018/image-20230320-094800.png,,,,,,,,,,,,,,,,,0|i0003b:,,,,,,,,,,,To Do
+Error messages aren’t user friendly ,RFB-13,10014,Improvement,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:46 AM,20/Mar/23 11:46 AM,20/Mar/23 11:55 AM,,,0,message,popup,UI,"*Error messages* aren’t user friendly visually AND require pressing the [*OK*] button.
+
+!image-20230320-094454.png|width=353,height=92!
+
+*Proposal:* Some message with red letters could appear next to the incorrectly filled field. Please see below:
+
+!image-20230320-094506.png|width=372,height=154!",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:46 AM;63f38e9f89de3d475af3dff2;image-20230320-094454.png;https://flowersoft.atlassian.net/secure/attachment/10015/image-20230320-094454.png,20/Mar/23 11:46 AM;63f38e9f89de3d475af3dff2;image-20230320-094506.png;https://flowersoft.atlassian.net/secure/attachment/10016/image-20230320-094506.png,,,,,,,,,,,,,,,,,0|i00033:,,,,,,,,,,,To Do
+Back button keeps input data,RFB-12,10013,Improvement,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:44 AM,20/Mar/23 11:44 AM,20/Mar/23 11:59 AM,,,0,input,security,,"When I press the *[Back]* button after successful registering, the site *remembers* all my data *inputs*.
+
+*Steps to reproduce:*
+
+# Enter valid username, password and e-mail in the registration form. (e.g. Username: username; E-mail: [gosho@abv.bg|mailto:gosho@abv.bg]; Password: Passw0rd$).
+#  Click [*Create Account*].
+# Wait until the popup window saying “*Redirecting*” appears.
+!image-20230320-094326.png|width=362,height=127!
+# Click [*OK*] from the pop up window.
+# Wait to be redirected to the *“You are now logged in.”* page.
+!image-20230320-094332.png|width=362,height=140!
+# Press the [*Back*] button.
+!image-20230320-094337.png|width=362,height=204!
+# The page remembers the data input from earlier fill-in.
+!image-20230320-094342.png|width=358,height=254!
+
+ *Proposal*: Clear all data after registering to the site.",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:44 AM;63f38e9f89de3d475af3dff2;image-20230320-094326.png;https://flowersoft.atlassian.net/secure/attachment/10012/image-20230320-094326.png,20/Mar/23 11:44 AM;63f38e9f89de3d475af3dff2;image-20230320-094332.png;https://flowersoft.atlassian.net/secure/attachment/10013/image-20230320-094332.png,20/Mar/23 11:44 AM;63f38e9f89de3d475af3dff2;image-20230320-094337.png;https://flowersoft.atlassian.net/secure/attachment/10014/image-20230320-094337.png,20/Mar/23 11:44 AM;63f38e9f89de3d475af3dff2;image-20230320-094342.png;https://flowersoft.atlassian.net/secure/attachment/10011/image-20230320-094342.png,,,,,,,,,,,,,,,0|i0002v:,,,,,,,,,,,To Do
+Username field accepts too long input,RFB-11,10012,Improvement,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:40 AM,20/Mar/23 11:55 AM,20/Mar/23 11:55 AM,,,0,length,username,validation,"*_Username_* field accepts too *long* input.
+
+!image-20230320-093904.png|width=359,height=237!
+
+*Examples*: “userkdjhfadifvh8927465294765jkhvbskjfdhbvjks4875”.
+
+*Proposal*: Put an upper limit for characters used in _Username_ field.",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:40 AM;63f38e9f89de3d475af3dff2;image-20230320-093904.png;https://flowersoft.atlassian.net/secure/attachment/10010/image-20230320-093904.png,,,,,,,,,,,,,,,,,,0|i0002n:,,,,,,,,,,,To Do
+Missing Password visibility option,RFB-10,10011,Improvement,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:37 AM,20/Mar/23 11:57 AM,20/Mar/23 11:56 AM,,,0,UI,,,"Currently there *isn’t* option to *see* what the *password* is while typing.
+
+!image-20230320-095708.png|width=543,height=116!
+
+
+
+*Proposal*: There could be implemented some hint for showing password, e.g. the one below:
+
+!image-20230320-093648.png|width=276,height=127!",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:37 AM;63f38e9f89de3d475af3dff2;image-20230320-093648.png;https://flowersoft.atlassian.net/secure/attachment/10009/image-20230320-093648.png,20/Mar/23 11:57 AM;63f38e9f89de3d475af3dff2;image-20230320-095708.png;https://flowersoft.atlassian.net/secure/attachment/10021/image-20230320-095708.png,,,,,,,,,,,,,,,,,0|i0002f:,,,,,,,,,,,To Do
+Popup message for redirecting needs [OK] click from user,RFB-9,10010,Task,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:33 AM,20/Mar/23 11:33 AM,20/Mar/23 11:59 AM,,,0,click,popup,,"When I use *valid* username, e-mail and password, after clicking the [*Create Account*] button, there’s a *popup* window (alert), which says “Redirecting”. I’m *not* *redirected* until I *press* the [*OK*] button from the popup window.
+
+*Steps to reproduce:* 
+
+# Enter *valid* username, password and e-mail in the registration form. (e.g. Username: username; E-mail: [gosho@abv.bg|mailto:gosho@abv.bg]; Password: Passw0rd$)
+#  Click [*Create Account*]
+# Wait until the *popup* window saying “*Redirecting*” appears.
+!image-20230320-093143.png|width=359,height=126!
+# Do not click [*OK*] from the pop up window.
+# Wait to see that you are *not* redirected at all.
+
+Proposal: Remove the need for clicking [*OK*] button by the user.",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:33 AM;63f38e9f89de3d475af3dff2;image-20230320-093143.png;https://flowersoft.atlassian.net/secure/attachment/10008/image-20230320-093143.png,,,,,,,,,,,,,,,,,,0|i00027:,,,,,,,,,,,To Do
+Invisible switch between buttons with [Tab],RFB-8,10009,Improvement,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:26 AM,20/Mar/23 11:26 AM,20/Mar/23 11:59 AM,,,0,tab,,,Using [*Tab*] button to move through fields isn’t visible when on [*Clear Form*] OR [*Create Account*] buttons.,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001z:,,,,,,,,,,,To Do
+Wrong text in popup window message for invalid password,RFB-7,10008,Bug,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:24 AM,20/Mar/23 11:24 AM,20/Mar/23 11:59 AM,,,0,popup,validation,,"*Popup* window *message* for invalid password is *wrong*:
+
+Instead of “*numbers*” or “*digits*” the popup message says “*Numeric letter*”, which is something completely different (X, V, I, etc.)
+
+Instead of “*field*” it says “*filed*”.
+
+!image-20230320-092348.png|width=324,height=111!",Google Chrome: Version 111.0.5563.65 (Official Build) (64-bit),Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:24 AM;63f38e9f89de3d475af3dff2;image-20230320-092348.png;https://flowersoft.atlassian.net/secure/attachment/10007/image-20230320-092348.png,,,,,,,,,,,,,,,,,,0|i0001r:,,,,,,,,,,,To Do
+"""Confirm Password"" text is incorrect",RFB-6,10007,Bug,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:22 AM,20/Mar/23 11:22 AM,20/Mar/23 11:59 AM,,,0,password,text,validation,"The text says *“Confirm Email :”* instead of *“Confirm Password:”.*
+
+!image-20230320-092149.png|width=326,height=179!",Google Chrome: Version 111.0.5563.65 (Official Build) (64-bit),Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:22 AM;63f38e9f89de3d475af3dff2;image-20230320-092149.png;https://flowersoft.atlassian.net/secure/attachment/10006/image-20230320-092149.png,,,,,,,,,,,,,,,,,,0|i0001j:,,,,,,,,,,,To Do
+“Account” is written incorrectly.,RFB-5,10006,Bug,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:21 AM,20/Mar/23 11:21 AM,20/Mar/23 11:59 AM,,,0,spelling,,,"*“Account”* is written incorrectly. It shouldn’t be “*Acount*”.
+
+!image-20230320-092037.png|width=326,height=182!",Google Chrome: Version 111.0.5563.65 (Official Build) (64-bit),Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:21 AM;63f38e9f89de3d475af3dff2;image-20230320-092037.png;https://flowersoft.atlassian.net/secure/attachment/10005/image-20230320-092037.png,,,,,,,,,,,,,,,,,,0|i0001b:,,,,,,,,,,,To Do
+[Clear Form] button doesn’t work.,RFB-4,10005,Bug,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:20 AM,20/Mar/23 11:20 AM,20/Mar/23 11:59 AM,,,0,button,clear,,"When I press the *[Clear Form*] button, I expect to have all fields cleared from data.
+
+Instead *nothing happens* when I press it.
+
+*Note*: However, the “Refresh” button does it.
+
+!image-20230320-091916.png|width=320,height=235!",Google Chrome: Version 111.0.5563.65 (Official Build) (64-bit),Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:20 AM;63f38e9f89de3d475af3dff2;image-20230320-091916.png;https://flowersoft.atlassian.net/secure/attachment/10004/image-20230320-091916.png,,,,,,,,,,,,,,,,,,0|i00013:,,,,,,,,,,,To Do
+"""Logged in"" page has incorrect message",RFB-3,10004,Bug,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Low,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:17 AM,20/Mar/23 11:17 AM,20/Mar/23 11:59 AM,,,0,,,,"The message after successful registration should be  *“You are now logged in.”.*
+
+However, it is *“Thank you for registering.”* instead. 
+
+!image-20230320-091613.png|width=320,height=140!",Google Chrome: Version 111.0.5563.65 (Official Build) (64-bit),Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:17 AM;63f38e9f89de3d475af3dff2;image-20230320-091613.png;https://flowersoft.atlassian.net/secure/attachment/10003/image-20230320-091613.png,,,,,,,,,,,,,,,,,,0|i0000v:,,,,,,,,,,,To Do
+Password field accepts invalid input,RFB-2,10003,Bug,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Medium,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:10 AM,20/Mar/23 11:10 AM,20/Mar/23 11:13 AM,,,0,password,validation,,"*Password* requirement is not met. 
+
+Password with *five* (5) characters is *accepted*:
+
+!image-20230320-090641.png|width=324,height=248!
+
+*Example*: “As12#”, “Qw34%”
+
+The requirement is: _“_*_Password_* _should be_ *_minimum 6 characters_* _and_ *_maximum 12 characters_*_._ *_Uppers case, lower case, number,_* _and_ *_special character_* *_required._*_”_",Google Chrome: Version 111.0.5563.65 (Official Build) (64-bit),Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:10 AM;63f38e9f89de3d475af3dff2;image-20230320-090641.png;https://flowersoft.atlassian.net/secure/attachment/10002/image-20230320-090641.png,,,,,,,,,,,,,,,,,,0|i0000n:,,,,,,,,,,,To Do
+Username field accepts invalid input,RFB-1,10002,Bug,To Do,RFB,Registration Form Bugs March 23,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Medium,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,20/Mar/23 11:05 AM,20/Mar/23 11:12 AM,20/Mar/23 11:12 AM,,,0,username,validation,,"*_Username_* field *accepts* input with *four* (4) and *five* (5) alphanumeric *characters*.
+
+*Examples*: “user”, “qwert”.
+
+*Proposal*: Either change the requirements, OR fix the issue.
+
+*Requirement:* Currently it is: _“_*_no less than 6_* *_letters AND numbers_*_”._
+
+!image-20230320-090458.png|width=323,height=226!",Google Chrome: Version 111.0.5563.65 (Official Build) (64-bit),Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,20/Mar/23 11:05 AM;63f38e9f89de3d475af3dff2;image-20230320-090458.png;https://flowersoft.atlassian.net/secure/attachment/10001/image-20230320-090458.png,,,,,,,,,,,,,,,,,,0|i0000f:,,,,,,,,,,,To Do
+Submit button disappears on click,QBD-1,10001,Bug,To Do,QBD,QA Basics demo,software,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,Medium,,,,Tsveta Kamenova,63f38e9f89de3d475af3dff2,Tsveta Kamenova,63f38e9f89de3d475af3dff2,21/Feb/23 9:51 AM,21/Feb/23 10:48 AM,17/Mar/23 1:16 PM,,,0,,,,"*Site:* [https://register-form.softuniqa.repl.co/|https://register-form.softuniqa.repl.co/]
+
+As a user, when I click on the submit button, it disappears.
+
+*Expected behavior:* When I click on the submit button, it submits the form as per specification.
+
+*Actual behavior:* When I click on the submit button it disappears and does not do anything else.
+
+*System:* Windows 10, Chrome ",,Tsveta Kamenova,63f38e9f89de3d475af3dff2,,,,,,,,,21/Feb/23 10:48 AM;63f38e9f89de3d475af3dff2;SumbitButtonDisappears.png;https://flowersoft.atlassian.net/secure/attachment/10000/SumbitButtonDisappears.png,,,,,,,,,,,,,,,,,,0|i00007:,,,,,,,,,,,To Do
